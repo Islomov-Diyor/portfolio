@@ -1,0 +1,77 @@
+[
+  {
+    "model": "core.herosection",
+    "pk": 1,
+    "fields": {
+      "name": "ISLOMOV DIYORBEK",
+      "badge": "ISHGA TAYYOR",
+      "desc": "Full Stack Developer va IT/CS/AT o'qituvchisi. Zamonaviy veb texnologiyalar va dasturlash ta'limi orqali kelajakni qurishga yordam beraman. \ud83c\uddfa\ud83c\uddff Uzbekiston.",
+      "btn1_text": "Loyihalarni Ko'rish",
+      "btn2_text": "Bog'lanish",
+      "roles": "Full Stack Developer, IT/CS/AT Teacher, React & Node.js, Python & SQL"
+    }
+  },
+  {
+    "model": "core.aboutsection",
+    "pk": 1,
+    "fields": {
+      "bio_uz": "Salom! Men Islomov Diyorbek — Uzbekistonlik Full Stack Developer va IT/CS/AT o'qituvchisi. Veb texnologiyalar, dasturlash va axborot texnologiyalari sohasida 5+ yil tajribaga egaman.\n\nHar kuni zamonaviy texnologiyalar yordamida real muammolarni yechaman va yoshlarga dasturlashni o'rgataman. React, Node.js va Python mening asosiy qurollarim.",
+      "bio_en": "Hi! I'm Islomov Diyorbek — a Full Stack Developer and IT/CS/AT Teacher from Uzbekistan. I have 5+ years of experience in web technologies, programming, and information technology.\n\nI build real-world solutions with modern technologies and teach the next generation of developers. React, Node.js, and Python are my primary tools.",
+      "stat_years": 5,
+      "stat_students": 200,
+      "stat_projects": 30
+    }
+  },
+  {"model": "core.skill", "pk": 1, "fields": {"name": "HTML / CSS", "percentage": 95, "order": 1}},
+  {"model": "core.skill", "pk": 2, "fields": {"name": "JavaScript", "percentage": 88, "order": 2}},
+  {"model": "core.skill", "pk": 3, "fields": {"name": "React", "percentage": 82, "order": 3}},
+  {"model": "core.skill", "pk": 4, "fields": {"name": "Node.js", "percentage": 78, "order": 4}},
+  {"model": "core.skill", "pk": 5, "fields": {"name": "Python", "percentage": 75, "order": 5}},
+  {"model": "core.skill", "pk": 6, "fields": {"name": "SQL", "percentage": 72, "order": 6}},
+  {"model": "core.skill", "pk": 7, "fields": {"name": "Teaching", "percentage": 97, "order": 7}},
+  {"model": "core.skill", "pk": 8, "fields": {"name": "Problem Solving", "percentage": 92, "order": 8}},
+  {
+    "model": "core.project", "pk": 1,
+    "fields": {"title": "EDUTRACK", "emoji": "\ud83c\udf93", "category": "talim", "desc": "Maktablar uchun o'quvchi davomati va baholarini boshqarish tizimi. Real vaqtda hisobotlar va tahlillar.", "tags": "React, Node.js, MongoDB", "demo_url": "#", "github_url": "https://github.com/Islomov-Diyor", "gradient": "135deg,#001a1f 0%,#003344 50%,#00f5ff0d 100%", "order": 1}
+  },
+  {
+    "model": "core.project", "pk": 2,
+    "fields": {"title": "UZMARKET", "emoji": "\ud83d\uded2", "category": "fullstack", "desc": "O'zbek to'lov tizimi integratsiyali to'liq e-commerce platforma. Mahsulot katalogi, savat va buyurtma tizimi.", "tags": "Next.js, Express, PostgreSQL", "demo_url": "#", "github_url": "https://github.com/Islomov-Diyor", "gradient": "135deg,#0d1a00 0%,#1a3300 50%,#39ff140d 100%", "order": 2}
+  },
+  {
+    "model": "core.project", "pk": 3,
+    "fields": {"title": "NETMONITOR", "emoji": "\ud83d\udce1", "category": "backend", "desc": "Real vaqtda tarmoq monitoring paneli. Trafik tahlili, xavf-xatar ogohlantirishi va grafik ko'rinish.", "tags": "Python, Flask, SQLite", "demo_url": "#", "github_url": "https://github.com/Islomov-Diyor", "gradient": "135deg,#0a0a1a 0%,#1a1a3a 50%,#8800ff0d 100%", "order": 3}
+  },
+  {
+    "model": "core.project", "pk": 4,
+    "fields": {"title": "ALGOLEARN", "emoji": "\u26a1", "category": "frontend", "desc": "CS talabalari uchun algoritm vizualizatori. Saralash, graflar va dinamik dasturlash animatsiyalari.", "tags": "Vanilla JS, Canvas API, HTML5", "demo_url": "#", "github_url": "https://github.com/Islomov-Diyor", "gradient": "135deg,#001a10 0%,#003322 50%,#00ff880d 100%", "order": 4}
+  },
+  {
+    "model": "core.project", "pk": 5,
+    "fields": {"title": "SCHOOLDB", "emoji": "\ud83d\uddc4\ufe0f", "category": "backend", "desc": "Ta'lim muassasalari uchun ma'lumotlar bazasi boshqaruv tizimi. O'quvchi, o'qituvchi va jadval ma'lumotlari.", "tags": "Node.js, MySQL, REST API", "demo_url": "#", "github_url": "https://github.com/Islomov-Diyor", "gradient": "135deg,#1a0a00 0%,#3a1a00 50%,#ff88000d 100%", "order": 5}
+  },
+  {
+    "model": "core.project", "pk": 6,
+    "fields": {"title": "PORTFOLIOGEN", "emoji": "\ud83d\ude80", "category": "fullstack", "desc": "IT talabalari uchun portfolio generator. Shablonlar, live preview va Firebase hosting integratsiyasi.", "tags": "React, Firebase, CSS", "demo_url": "#", "github_url": "https://github.com/Islomov-Diyor", "gradient": "135deg,#00101a 0%,#001a2a 50%,#00aaff0d 100%", "order": 6}
+  },
+  {"model": "core.timelineitem", "pk": 1, "fields": {"year": "2019", "title": "IT ASOSLARI", "desc": "Hardware, software, operatsion tizimlar va ofis dasturlari bo'yicha kurs. 40+ o'quvchi.", "order": 1}},
+  {"model": "core.timelineitem", "pk": 2, "fields": {"year": "2020", "title": "DASTURLASH ASOSLARI", "desc": "Python tilida algoritmik fikrlash, o'zgaruvchilar, sikllar, funksiyalar va OOP asoslari.", "order": 2}},
+  {"model": "core.timelineitem", "pk": 3, "fields": {"year": "2021", "title": "WEB TEXNOLOGIYALAR", "desc": "HTML5, CSS3, JavaScript va React.js asoslari. Real loyihalar ustida ishlash amaliyoti.", "order": 3}},
+  {"model": "core.timelineitem", "pk": 4, "fields": {"year": "2022", "title": "MA'LUMOTLAR BAZASI", "desc": "SQL, MySQL, relatsion ma'lumotlar bazasi loyihalash va so'rovlar yozish kursi.", "order": 4}},
+  {"model": "core.timelineitem", "pk": 5, "fields": {"year": "2023 — Hozir", "title": "KOMPYUTER TARMOQLARI", "desc": "Tarmoq protokollari, TCP/IP, marshrutlash, kiberxavfsizlik asoslari va amaliy konfiguratsiya.", "order": 5}},
+  {"model": "core.testimonial", "pk": 1, "fields": {"quote": "Diyorbek aka darslarida dasturlashni juda yaxshi o'rgandim. Uning tushuntirish uslubi juda oddiy va tushunarli bo'lib, hatto murakkab mavzularni ham oson o'zlashtirib oldim.", "name": "Aziz Toshmatov", "letter": "A", "course_year": "Web Texnologiyalar kursi, 2021", "order": 1}},
+  {"model": "core.testimonial", "pk": 2, "fields": {"quote": "Ma'lumotlar bazasi kursidan keyin o'zim loyiha yaratdim va uni ishga tushirdim. Diyorbek aka nafaqat o'rgatadi, balki amaliy hayotda qanday qo'llashni ham ko'rsatadi. Rahmat!", "name": "Malika Yusupova", "letter": "M", "course_year": "Ma'lumotlar Bazasi kursi, 2022", "order": 2}},
+  {"model": "core.testimonial", "pk": 3, "fields": {"quote": "Eng yaxshi IT o'qituvchi! Har doim savollarimga javob berardi va qo'shimcha materiallar ham taklif qilardi. Tarmoqlar kursidan keyin sertifikatni ham oldim.", "name": "Jasur Nazarov", "letter": "J", "course_year": "Kompyuter Tarmoqlari kursi, 2023", "order": 3}},
+  {
+    "model": "core.contactinfo",
+    "pk": 1,
+    "fields": {
+      "github": "https://github.com/Islomov-Diyor",
+      "telegram": "https://t.me/diyorproger2",
+      "linkedin": "#",
+      "email": "diyorbekshaxrisabz@gmail.com",
+      "location": "Uzbekistan \ud83c\uddfa\ud83c\uddff",
+      "youtube": "https://www.youtube.com/@diyorproger"
+    }
+  }
+]
