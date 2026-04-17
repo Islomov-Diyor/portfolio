@@ -1,2 +1,2 @@
 [deploy]
-startCommand = "python manage.py migrate && python manage.py loaddata core/fixtures/initial_data.json --ignorenonexistent && gunicorn portfolio.wsgi"
+startCommand = "python manage.py collectstatic --noinput && python manage.py migrate && python manage.py loaddata core/fixtures/initial_data.json --ignorenonexistent && gunicorn portfolio.wsgi"
