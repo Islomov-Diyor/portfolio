@@ -1,3 +1,2 @@
 [deploy]
-releaseCommand = "python manage.py migrate && python manage.py loaddata core/fixtures/initial_data.json"
-startCommand = "gunicorn portfolio.wsgi"
+startCommand = "python manage.py migrate && python manage.py loaddata core/fixtures/initial_data.json --ignorenonexistent && gunicorn portfolio.wsgi"
